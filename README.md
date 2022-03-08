@@ -1,12 +1,14 @@
-## Sobre o desafio
-
-Este é um simples teste para o qual você desenvolverá o backend de uma aplicação de acordo com os requisitos e orientações neste documento.
-
-Você pode utilizar qualquer liguagem / ferramentas que desejar.
+## Sobre as pastas do projeto
+    ./api/ => Contém nosso código da api.
+    ./api/controllers/ => Contém todos controladores da api.
+    ./api/data/ => Contém nossos mocks.
+    ./api/routes/ => Contém as rotas da api.
+    ./config/ => Contém as configurações do servidor.
+    ./package.json => Listagem das dependências do projeto.
 
 ## Como funciona?
 
-1.  Crie seu branch para desenvolver a solução;
+1.  Crie seu branch para desenvolver a solução;cls
 2.  Resolva o desafio da melhor forma que conseguir;
 3.  Utilize os commits como se estivesse em um projeto colaborativo, pois isso fará parte do processo de avaliação;
 4.  Quando terminar abra um Pull Request para o branch `master` deste repositório, dessa forma que saberemos que você concluiu o desafio e podemos iniciar a revisão do código;

@@ -1,0 +1,26 @@
+{
+  "name": "challenge-backend-node",
+  "version": "1.0.0",
+  "description": "Este é um simples teste para o qual você desenvolverá o backend de uma aplicação de acordo com os requisitos e orientações neste documento.",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SampaioDev/challenge-backend-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SampaioDev/challenge-backend-node/issues"
+  },
+  "homepage": "https://github.com/SampaioDev/challenge-backend-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.3",
+    "express": "^4.17.1"
+  }
+}
