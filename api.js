@@ -1,7 +1,5 @@
-const axios = require('axios');
+import axios from 'axios';
 
-const api = axios.create({
-    baseURL: "http://www.omdbapi.com/?apikey=f18c1753&t="
-})
+const api = axios.create({})
 
-module.exports = api;
+export default api;

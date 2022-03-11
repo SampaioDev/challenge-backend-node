@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Este é um simples teste para o qual você desenvolverá o backend de uma aplicação de acordo com os requisitos e orientações neste documento.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,6 +24,8 @@
     "body-parser": "^1.19.0",
     "config": "^3.2.3",
     "consign": "^0.1.6",
-    "express": "^4.17.1"
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "properties-reader": "^2.2.0"
   }
 }
